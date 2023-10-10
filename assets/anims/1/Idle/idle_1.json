@@ -1,0 +1,1028 @@
+{
+	"textures": [
+		{
+			"image": "idle_1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1968,
+				"h": 456
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "Flower-1-Idle_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 83,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 83,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 165,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 165,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 247,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 247,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 329,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 329,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 411,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 411,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 493,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 493,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 575,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 575,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 657,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 657,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 739,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 739,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 821,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 821,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 903,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 903,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 985,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 985,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1067,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1067,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1149,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1149,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_30.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1231,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_31.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1231,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1313,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_33.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1313,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_34.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1395,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_35.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1395,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_36.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1477,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_37.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1477,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_38.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_39.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1559,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_40.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1641,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_41.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1641,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_42.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1723,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_43.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1723,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_44.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1805,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_45.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1805,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_46.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1887,
+						"y": 1,
+						"w": 80,
+						"h": 226
+					}
+				},
+				{
+					"filename": "Flower-1-Idle_47.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 226
+					},
+					"frame": {
+						"x": 1887,
+						"y": 229,
+						"w": 80,
+						"h": 226
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9e1c9509167ab0376187f568eeb094fc:f314ea4e234ce0bed11b05fd09387f54:a967405d1c6fb661f03a635de0cf08aa$"
+	}
+}

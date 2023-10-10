@@ -1,0 +1,24 @@
+{
+  "name": "tvknifehit",
+  "version": "1.0.0",
+  "description": "<h1>FLOWER HIT</h1> \u0000by Sos7ya \u0000 <h2>HOW TO PLAY</h2> <p>Click <a href = https://sos7ya.itch.io/tvknifehit>here</a> use <b>ENTER</b> to play and <b>LEFT CLICK</b> to pause</p>",
+  "main": "newVersion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^9.1.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

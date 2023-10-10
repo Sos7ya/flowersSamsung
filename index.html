@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="libs/statial_navigationes5.js"></script>
+  <script src="libs/tvinputes5.js"></script>
+  <script src="libs/phaser.min.js"></script>
+  <script src="libs/index.min.js"></script> -->
+  <script src="libs.js"></script>
+
+  <script src="bundle.js"></script>
+</head>
+<body>
+  <div id="phaser-example" class="focusable" style="outline: 0; padding: 0; display: flex; align-items: baseline; justify-content: center; height: 100%; width: 100%; background-color: #000000;">
+    <style>
+      @font-face {
+      font-family: 'Nunito';
+      src: url('assets/fonts/static/Nunito-ExtraBold.ttf') format('truetype');
+      src: url('assets/fonts/static/Nunito-ExtraBold.woff') format('woff');
+      src: url('assets/fonts/static/Nunito-ExtraBold.woff2') format('woff2');
+
+    }
+  
+      @font-face {
+        font-family: 'Nunito-black';
+        font-weight: 1000;
+        src: url('assets/fonts/static/Nunito-Black.ttf') format('truetype');
+        src: url('assets/fonts/static/Nunito-Black.woff') format('woff');
+        src: url('assets/fonts/static/Nunito-Black.woff2') format('woff2');
+      }
+      @font-face {
+            font-family: 'Rubik-Medium';
+            src: url('assets/fonts/Rubik-Medium.ttf');
+        }
+
+        @font-face {
+            font-family: 'Rubik-Regular';
+            src: url('assets/fonts/Rubik-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'RubikOne-Regular';
+            src: url('assets/fonts/RubikOne-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'Rubik-SemiBold';
+            src: url('assets/fonts/Rubik-SemiBold.ttf');
+        }
+
+      body{
+      background-color: #000000;
+      margin: 0;
+      outline: 0;
+    }
+    canvas{
+      background-color: #000000;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      outline: 0;
+    }
+    canvas:focus{
+      outline: 0;
+    }
+    </style>
+  </div>
+  <script>
+    var gameDiv = document.getElementById('phaser-example');
+
+    window.addEventListener("load", (event) => {
+      console.log('HTML redy!')
+      gameDiv.focus();
+      console.log(`Game div in focus! ${document.activeElement}`);
+    });
+
+    gameDiv.onblur = function () {
+      gameDiv.focus();
+      console.log(`Game div in focus! ${document.activeElement}`);
+    }
+  </script>
+</body>

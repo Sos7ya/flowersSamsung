@@ -1,0 +1,524 @@
+{
+	"textures": [
+		{
+			"image": "blooming_1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1128,
+				"h": 988
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "Flower-1-Bloom_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 1,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 1,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 1,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 189,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 189,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 189,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 189,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 377,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 377,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 377,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 377,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 565,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 565,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 565,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 565,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 753,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 753,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 753,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 753,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 941,
+						"y": 1,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 941,
+						"y": 248,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 941,
+						"y": 495,
+						"w": 186,
+						"h": 245
+					}
+				},
+				{
+					"filename": "Flower-1-Bloom_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 245
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 245
+					},
+					"frame": {
+						"x": 941,
+						"y": 742,
+						"w": 186,
+						"h": 245
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f22f1c210f2811c4de325e8d17d18644:babb14fda433730a23d585edb3ced906:e72a10b2a33f3e519759eddb72781f2c$"
+	}
+}
