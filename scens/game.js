@@ -28,13 +28,13 @@ var index = 0
 var sessionID
 var gameId = uid();
 
-var game_version = "v 0.1.2";
+var game_version = "v 0.1.2s";
 
 var clickSound;
 window.onload = function() {
     var gameConfig = {
 
-       type: Phaser.CANVAS,
+       type: Phaser.WEBGL,
        width: 1920,
        height: 1080,
        
