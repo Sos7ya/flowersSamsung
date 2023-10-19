@@ -4,7 +4,8 @@
   "description": "<h1>FLOWER HIT</h1> \u0000by Sos7ya \u0000 <h2>HOW TO PLAY</h2> <p>Click <a href = https://sos7ya.itch.io/tvknifehit>here</a> use <b>ENTER</b> to play and <b>LEFT CLICK</b> to pause</p>",
   "main": "newVersion.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "keywords": [],
   "author": "",

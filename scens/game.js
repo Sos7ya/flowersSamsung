@@ -26,15 +26,15 @@ var gameOptions = {
 var index = 0
 
 var sessionID
-var gameId = uid();
+var gameId = generateUUID();
 
-var game_version = "v 0.1.2s";
+var game_version = "v 0.1.5s";
 
 var clickSound;
 window.onload = function() {
     var gameConfig = {
 
-       type: Phaser.WEBGL,
+       type: Phaser.CANVAS,
        width: 1920,
        height: 1080,
        
@@ -59,9 +59,8 @@ window.onload = function() {
         }
     };
     console.log('Game is redy')
-
-
-    sessionID = uid();
+    sessionID = generateUUID();
+    try{
     var startGameSession = {
         action: 'startGameSession',
         allGameSessionId: sessionID,
@@ -70,6 +69,17 @@ window.onload = function() {
     console.log(`session ${startGameSession.allGameSessionId} started!`);
     window?.parent.postMessage(startGameSession, '*');
 
+    }
+    
+    catch(er){
+        var startGameSessionError = {
+        action: 'startGameSessionError',
+        allGameSessionId: sessionID,
+        timeStamp: Date.now()
+        }
+        window?.parent.postMessage(startGameSessionError, '*');
+
+    }
 
     game = new Phaser.Game(gameConfig);
 }

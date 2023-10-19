@@ -4,6 +4,32 @@ class ScenePause extends Phaser.Scene{
     }
 
     create(){
+
+        try{
+            let gamePause = {
+                action: 'gamePause',
+                allGameSessionId: startGame.allGameSessionId,
+                gameSessionId: startGame.gameSessionId,
+                score: gameOptions.score,
+                level: gameOptions.stage,
+                timeStamp : Date.now()
+            }
+    
+            window?.parent.postMessage(gamePause, '*');
+        }
+        catch(er){
+            let gamePauseError = {
+                action: 'gamePauseError',
+                allGameSessionId: startGame.allGameSessionId,
+                gameSessionId: startGame.gameSessionId,
+                score: gameOptions.score,
+                level: gameOptions.stage,
+                timeStamp : Date.now()
+            }
+    
+            window?.parent.postMessage(gamePauseError, '*');
+        }
+
         this.blurBg = this.add.image(game.config.width/2, game.config.height/2, `bgBlur_${gameOptions.marker}`);
         this.blurBg.setDisplaySize(game.config.width, game.config.height);
         this.uiBg = this.add.image(game.config.width/2, game.config.height/2, `pauseBg`);

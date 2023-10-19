@@ -4,6 +4,14 @@ class Preloader extends Phaser.Scene{
     }
 
     preload(){
+        try{
+
+            let startDownloading = {
+                action: 'startDownloading',
+                allGameSessionId: sessionID,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(startDownloading, '*');
         console.log('preloader start!');
         this.loadText = this.add.text(game.config.width/2, game.config.height/2, 'ЗАГРУЗКА...', { fontFamily:'Nunito-black', fontStyle:'bold', fontSize: '40px', fill: 'white'}).alpha = 0;
         this.loadTextTwo = this.add.text(0, 0, '...', { fontFamily:'Nunito', fontStyle:'bold', fontSize: '40px', fill: '#000000'}).alpha = 0;
@@ -141,9 +149,33 @@ class Preloader extends Phaser.Scene{
         this.load.audio('soil', 'sound/soil.mp3');
         this.load.audio('bonus', 'sound/star.mp3');
         this.load.audio('click', 'sound/click.mp3');
-
+    }
+    catch(er){
+        let startDownloadingError = {
+            action: 'startDownloadingError',
+            allGameSessionId: sessionID,
+            timeStamp: Date.now()
+        }
+        window?.parent.postMessage(startDownloadingError, '*');
+    }
     }
     create(){
+        try{
+            let finishDownload = {
+                action: 'finishDownload',
+                allGameSessionId: sessionID,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(finishDownload, '*')
+        }
+        catch(er){
+            let downloadError = {
+                action: 'downloadError',
+                allGameSessionId: sessionID,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(downloadError, '*')
+        }
         console.log('preloader finished!');
         this.scene.start('MainMenu');
     }

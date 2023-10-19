@@ -181,7 +181,7 @@ class GameOver extends Phaser.Scene{
             lvlIndex = 1
 
 
-            startGame.gameSessionId = uid();
+            startGame.gameSessionId = generateUUID();
             startGame.allGameSessionId = sessionID;
             window?.parent.postMessage(startGame, '*');
             console.log(`started game w: allGame - ${startGame.allGameSessionId} and gameId - ${startGame.gameSessionId}`);

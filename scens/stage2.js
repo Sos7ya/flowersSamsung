@@ -45,16 +45,30 @@ class Stage2 extends Phaser.Scene{
             callbackScope: this,
             loop: false
         });
-
-        var levelUp = {
-            action: 'levelUp',
-            allGameSessionId : sessionID,
-            gameSessionId : startGame.gameSessionId,
-            level: gameOptions.stage,
-            score: gameOptions.score,
-            timeStamp: Date.now()
+        try{
+            var levelUp = {
+                action: 'levelUp',
+                allGameSessionId : sessionID,
+                gameSessionId : startGame.gameSessionId,
+                level: gameOptions.stage,
+                score: gameOptions.score,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(levelUp, '*');
         }
-        window?.parent.postMessage(levelUp, '*');
+        
+
+        catch(er){
+            var levelUpError = {
+                action: 'levelUpError',
+                allGameSessionId : sessionID,
+                gameSessionId : startGame.gameSessionId,
+                level: gameOptions.stage,
+                score: gameOptions.score,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(levelUpError, '*');
+        }
     }
     
     update(){
