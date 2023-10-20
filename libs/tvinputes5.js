@@ -11,7 +11,6 @@ window.addEventListener('load', function () {
   var validEvents = ['sn:willmove', 'sn:enter-down', 'sn:enter-up'];
   var eventHandler = function eventHandler(evt) {
     var _evt$detail;
-    console.log(evt.type, evt.target, evt.detail);
     if (evt.type == 'sn:enter-down') {
       playgame.throwKnife();
       mainMenu.gameToggle();
