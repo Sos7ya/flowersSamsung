@@ -12,7 +12,6 @@ class Preloader extends Phaser.Scene{
                 timeStamp: Date.now()
             }
             window?.parent.postMessage(startDownloading, '*');
-        console.log('preloader start!');
         this.loadText = this.add.text(game.config.width/2, game.config.height/2, 'ЗАГРУЗКА...', { fontFamily:'Nunito-black', fontStyle:'bold', fontSize: '40px', fill: 'white'}).alpha = 0;
         this.loadTextTwo = this.add.text(0, 0, '...', { fontFamily:'Nunito', fontStyle:'bold', fontSize: '40px', fill: '#000000'}).alpha = 0;
         
@@ -176,7 +175,6 @@ class Preloader extends Phaser.Scene{
             }
             window?.parent.postMessage(downloadError, '*')
         }
-        console.log('preloader finished!');
         this.scene.start('MainMenu');
     }
 }

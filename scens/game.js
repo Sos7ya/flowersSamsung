@@ -58,7 +58,6 @@ window.onload = function() {
             noAudio: false
         }
     };
-    console.log('Game is redy')
     sessionID = generateUUID();
     try{
     var startGameSession = {
@@ -66,7 +65,6 @@ window.onload = function() {
         allGameSessionId: sessionID,
         timeStamp: Date.now()
     }
-    console.log(`session ${startGameSession.allGameSessionId} started!`);
     window?.parent.postMessage(startGameSession, '*');
 
     }
@@ -90,7 +88,6 @@ class playGame extends Phaser.Scene{
     }
 
     create(){
-        console.log('game started!')
         gameOptions.isMenu = false
         gameOptions.onGame = true
         this.backGround = this.add.image(game.config.width/2, game.config.height/2, `bg_${gameOptions.marker}`);
@@ -262,8 +259,6 @@ class playGame extends Phaser.Scene{
         var radians = Phaser.Math.DegToRad(appleAngle - 90);
         var bonuses = this.bonusGroup.getChildren();
         var apple = this.add.sprite(this.target.x + (this.target.width/8)*Math.cos(radians), this.target.y + (this.target.width/8) * Math.sin(radians), `flower_${gameOptions.marker}`);
-        console.log(this.bonusGroup.getChildren())
-
         
         apple.angle = appleAngle;
         apple.startAngle = appleAngle;

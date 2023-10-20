@@ -184,7 +184,6 @@ class GameOver extends Phaser.Scene{
             startGame.gameSessionId = generateUUID();
             startGame.allGameSessionId = sessionID;
             window?.parent.postMessage(startGame, '*');
-            console.log(`started game w: allGame - ${startGame.allGameSessionId} and gameId - ${startGame.gameSessionId}`);
         }
     }
 

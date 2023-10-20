@@ -12,7 +12,6 @@ class MainMenu extends Phaser.Scene{
 
 
     create(){
-        console.log('MainMenu started!')
         clickSound = this.sound.add('click', { volume: 0.5, loop: false });
         var blomAnim_1 = this.textures.get('flowerBloom_1').getFrameNames();
         this.anims.create({
@@ -256,7 +255,6 @@ class MainMenu extends Phaser.Scene{
             startGame.gameSessionId = generateUUID();
             startGame.allGameSessionId = sessionID;
             window?.parent.postMessage(startGame, '*');
-            console.log(`started game w: allGame - ${startGame.allGameSessionId} and gameId - ${startGame.gameSessionId}`);
            
         }
     }
