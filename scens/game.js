@@ -24,11 +24,11 @@ var gameOptions = {
 }
 
 var index = 0
-
+var posted = false;
 var sessionID
 var gameId = generateUUID();
 
-var game_version = "v 0.1.5s";
+var game_version = "v 0.1.6s";
 
 var clickSound;
 window.onload = function() {
@@ -55,7 +55,6 @@ window.onload = function() {
 
         audio:{
             disableWebAudio: true,
-            noAudio: false
         }
     };
     sessionID = generateUUID();

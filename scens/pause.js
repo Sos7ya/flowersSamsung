@@ -171,13 +171,26 @@ class ScenePause extends Phaser.Scene{
     };
     exit(){
         clickSound.play();
-        let closeGameSession = {
-            action: 'closeGameSession',
-            allGameSessionId : sessionID,
-            timeStamp : Date.now()
+        if(!posted){
+            let closeGameSession = {
+                action: 'closeGameSession',
+                allGameSessionId : sessionID,
+                timeStamp : Date.now()
+            }
+            let gameOver = {
+                action: 'gameOver',
+                allGameSessionId : sessionID,
+                gameSessionId : startGame.gameSessionId,
+                level: gameOptions.stage,
+                score : gameOptions.score,
+                timeStamp : Date.now()
+            }
+    
+            window?.parent.postMessage(gameOver, '*');
+    
+            window?.parent.postMessage(closeGameSession, '*');
+            posted = true;
         }
-
-        window?.parent.postMessage(closeGameSession, '*');
     }
     onPressExit(){
         if(gameOptions.onPause == true){

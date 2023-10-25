@@ -200,13 +200,16 @@ class GameOver extends Phaser.Scene{
 
     exit(){
         clickSound.play();
-        let closeGameSession = {
-            action: 'closeGameSession',
-            allGameSessionId : sessionID,
-            timeStamp : Date.now()
+        if(!posted){
+            let closeGameSession = {
+                action: 'closeGameSession',
+                allGameSessionId : sessionID,
+                timeStamp : Date.now()
+            }
+    
+            window?.parent.postMessage(closeGameSession, '*');
+            posted = true;
         }
-
-        window?.parent.postMessage(closeGameSession, '*');
     }
     onPressExit(){
         if(gameOptions.isOver == true){
