@@ -5,6 +5,18 @@ class Stage2 extends Phaser.Scene{
         super({key: "stage2"})
     }
     create(){
+
+        try{
+            var levelUp = {
+                action: 'levelUp',
+                allGameSessionId : sessionID,
+                gameSessionId : startGame.gameSessionId,
+                level: gameOptions.stage,
+                score: gameOptions.score,
+                timeStamp: Date.now()
+            }
+            window?.parent.postMessage(levelUp, '*');
+
         this.backGround = this.add.image(game.config.width/2, game.config.height/2, `bg_${gameOptions.marker}`);
         this.backGround.setOrigin(0.5);
         this.backGround.setDisplaySize(game.config.width, game.config.height);
@@ -45,16 +57,7 @@ class Stage2 extends Phaser.Scene{
             callbackScope: this,
             loop: false
         });
-        try{
-            var levelUp = {
-                action: 'levelUp',
-                allGameSessionId : sessionID,
-                gameSessionId : startGame.gameSessionId,
-                level: gameOptions.stage,
-                score: gameOptions.score,
-                timeStamp: Date.now()
-            }
-            window?.parent.postMessage(levelUp, '*');
+        
         }
         
 
