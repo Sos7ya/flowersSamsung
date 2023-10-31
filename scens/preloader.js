@@ -11,7 +11,7 @@ class Preloader extends Phaser.Scene{
                 allGameSessionId: sessionID,
                 timeStamp: Date.now()
             }
-            window?.parent.postMessage(startDownloading, '*');
+            window?.parent.postMessage(startDownloading, parentOrigin);
         this.loadText = this.add.text(game.config.width/2, game.config.height/2, 'ЗАГРУЗКА...', { fontFamily:'Nunito-black', fontStyle:'bold', fontSize: '40px', fill: 'white'}).alpha = 0;
         this.loadTextTwo = this.add.text(0, 0, '...', { fontFamily:'Nunito', fontStyle:'bold', fontSize: '40px', fill: '#000000'}).alpha = 0;
         
@@ -155,7 +155,7 @@ class Preloader extends Phaser.Scene{
             allGameSessionId: sessionID,
             timeStamp: Date.now()
         }
-        window?.parent.postMessage(startDownloadingError, '*');
+        window?.parent.postMessage(startDownloadingError, parentOrigin);
     }
     }
     create(){
@@ -165,7 +165,7 @@ class Preloader extends Phaser.Scene{
                 allGameSessionId: sessionID,
                 timeStamp: Date.now()
             }
-            window?.parent.postMessage(finishDownload, '*')
+            window?.parent.postMessage(finishDownload, parentOrigin)
         }
         catch(er){
             let downloadError = {
@@ -173,7 +173,7 @@ class Preloader extends Phaser.Scene{
                 allGameSessionId: sessionID,
                 timeStamp: Date.now()
             }
-            window?.parent.postMessage(downloadError, '*')
+            window?.parent.postMessage(downloadError, parentOrigin)
         }
         this.scene.start('MainMenu');
     }

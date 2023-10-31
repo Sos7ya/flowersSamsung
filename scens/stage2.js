@@ -15,7 +15,7 @@ class Stage2 extends Phaser.Scene{
                 score: gameOptions.score,
                 timeStamp: Date.now()
             }
-            window?.parent.postMessage(levelUp, '*');
+            window?.parent.postMessage(levelUp, parentOrigin);
 
         this.backGround = this.add.image(game.config.width/2, game.config.height/2, `bg_${gameOptions.marker}`);
         this.backGround.setOrigin(0.5);
@@ -70,7 +70,7 @@ class Stage2 extends Phaser.Scene{
                 score: gameOptions.score,
                 timeStamp: Date.now()
             }
-            window?.parent.postMessage(levelUpError, '*');
+            window?.parent.postMessage(levelUpError, parentOrigin);
         }
     }
     

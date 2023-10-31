@@ -254,7 +254,7 @@ class MainMenu extends Phaser.Scene{
 
             startGame.gameSessionId = generateUUID();
             startGame.allGameSessionId = sessionID;
-            window?.parent.postMessage(startGame, '*');
+            window?.parent.postMessage(startGame, parentOrigin);
            
         }
     }
@@ -279,7 +279,7 @@ class MainMenu extends Phaser.Scene{
                 timeStamp : Date.now()
             }
     
-            window?.parent.postMessage(closeGameSession, '*');
+            window?.parent.postMessage(closeGameSession, parentOrigin);
             posted = true;
         }
     }

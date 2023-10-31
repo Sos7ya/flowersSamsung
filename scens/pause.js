@@ -15,7 +15,7 @@ class ScenePause extends Phaser.Scene{
                 timeStamp : Date.now()
             }
     
-            window?.parent.postMessage(gamePause, '*');
+            window?.parent.postMessage(gamePause, parentOrigin);
 
 
         this.blurBg = this.add.image(game.config.width/2, game.config.height/2, `bgBlur_${gameOptions.marker}`);
@@ -91,7 +91,7 @@ class ScenePause extends Phaser.Scene{
             timeStamp : Date.now()
         }
 
-        window?.parent.postMessage(gamePauseError, '*');
+        window?.parent.postMessage(gamePauseError, parentOrigin);
     }
     };
 
@@ -188,9 +188,9 @@ class ScenePause extends Phaser.Scene{
                 timeStamp : Date.now()
             }
     
-            window?.parent.postMessage(gameOver, '*');
+            window?.parent.postMessage(gameOver, parentOrigin);
     
-            window?.parent.postMessage(closeGameSession, '*');
+            window?.parent.postMessage(closeGameSession, parentOrigin);
             posted = true;
         }
     }

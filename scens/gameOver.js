@@ -14,7 +14,7 @@ class GameOver extends Phaser.Scene{
             timeStamp : Date.now()
         }
 
-        window?.parent.postMessage(gameOver, '*');
+        window?.parent.postMessage(gameOver, parentOrigin);
 
         this.blurBg = this.add.image(game.config.width/2, game.config.height/2, `bgBlur_${gameOptions.marker}`);
         this.blurBg.setDisplaySize(game.config.width, game.config.height);
@@ -183,7 +183,7 @@ class GameOver extends Phaser.Scene{
 
             startGame.gameSessionId = generateUUID();
             startGame.allGameSessionId = sessionID;
-            window?.parent.postMessage(startGame, '*');
+            window?.parent.postMessage(startGame, parentOrigin);
         }
     }
 
@@ -207,7 +207,7 @@ class GameOver extends Phaser.Scene{
                 timeStamp : Date.now()
             }
     
-            window?.parent.postMessage(closeGameSession, '*');
+            window?.parent.postMessage(closeGameSession, parentOrigin);
             posted = true;
         }
     }

@@ -27,7 +27,7 @@ var index = 0
 var posted = false;
 var sessionID
 var gameId = generateUUID();
-
+var parentOrigin;
 var game_version = "v 0.1.6s";
 
 var clickSound;
@@ -58,13 +58,20 @@ window.onload = function() {
         }
     };
     sessionID = generateUUID();
+    if(document.referrer){
+        parentOrigin = document.referrer
+        console.log(parentOrigin);
+    }
+    else{
+        parentOrigin = '*';
+    }
     try{
     var startGameSession = {
         action: 'startGameSession',
         allGameSessionId: sessionID,
         timeStamp: Date.now()
     }
-    window?.parent.postMessage(startGameSession, '*');
+    window?.parent.postMessage(startGameSession, parentOrigin);
 
     }
     
@@ -74,7 +81,7 @@ window.onload = function() {
         allGameSessionId: sessionID,
         timeStamp: Date.now()
         }
-        window?.parent.postMessage(startGameSessionError, '*');
+        window?.parent.postMessage(startGameSessionError, parentOrigin);
 
     }
 
