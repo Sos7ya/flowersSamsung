@@ -28,7 +28,7 @@ var posted = false;
 var sessionID
 var gameId = generateUUID();
 var parentOrigin;
-var game_version = "v 0.1.6s";
+var game_version = "v 0.1.7s";
 
 var clickSound;
 window.onload = function() {
