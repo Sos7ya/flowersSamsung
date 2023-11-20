@@ -96,22 +96,22 @@ class Stage2 extends Phaser.Scene{
             }
         }
         if((gameOptions.stage + 1) % 5 == 0){
-            this.scene.start("StageBoss")
+            
             gameOptions.onGame = true
             gameOptions.rotationSpeed += 0.5
-            gameOptions.targetHp = 15
-            gameOptions.knifeCount = 16
+            gameOptions.targetHp = 9
+            gameOptions.knifeCount = 10
             gameOptions.hitScore = 0
             gameOptions.stage+=1
             gameOptions.canThrow = true
             lvlIndex === 5 ? lvlIndex = 1 : lvlIndex+=1
-            
+            this.scene.start("StageBoss")
         }
         else{
             this.scene.start(playgame)
             gameOptions.canThrow = true
             gameOptions.knifeCount++
-            gameOptions.rotationSpeed += 0.2
+            gameOptions.rotationSpeed += 0.5
             gameOptions.targetHp += 1
             gameOptions.hitScore = 0
             gameOptions.stage +=1

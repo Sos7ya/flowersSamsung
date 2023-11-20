@@ -37,7 +37,10 @@ window.onload = function() {
        type: Phaser.CANVAS,
        width: 1920,
        height: 1080,
-       
+       fps: {
+            forceSetTimeOut: true,
+            target: 60
+       },
 
        parent: 'phaser-example',
 
@@ -106,9 +109,9 @@ class playGame extends Phaser.Scene{
             gameOptions.rotationSpeed = 1.5
         }
 
-        if(gameOptions.targetHp >= 15){
-            gameOptions.targetHp = 7
-            gameOptions.knifeCount = 8
+        if(gameOptions.targetHp > 9){
+            gameOptions.targetHp = 6
+            gameOptions.knifeCount = 7
             gameOptions.y = 500
         }
         //this.infoImage = this.add.image(260, 89, `info`).setScale(0.4).setOrigin(0.5);
@@ -176,17 +179,17 @@ class playGame extends Phaser.Scene{
 
         var rand = Math.random();
 
-        var n = rand > 0.4 ? 0:(rand > 0.6 ? 1 : 2);
+        var n = rand > 0.4 ? 0:(rand > 0.6 ? 1 : 1);
 
         
         this.loadScore();
         this.addBonus();
-        if(gameOptions.stage > 5){
+        if(gameOptions.stage > 7){
             var timedEvent = this.time.addEvent({
                 delay: 10,
                 callback: this.addObstacle,
                 callbackScope: this,
-                repeat: gameOptions.stage == 6 ? 0 : (gameOptions.stage == 7 ? 1 : (gameOptions.stage == 8 ? 2 : n))
+                repeat: n
             })
         };
         // this.input.keyboard.on('keydown-BACKSPACE', this.pauseGame, this);

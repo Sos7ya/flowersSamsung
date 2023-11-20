@@ -237,10 +237,10 @@ class MainMenu extends Phaser.Scene{
         if(gameOptions.isMenu == true){
             this.scene.start(playgame)
             this.bgMusic.play();
-           gameOptions.knifeCount = 8
+           gameOptions.knifeCount = 6
            gameOptions.rotationSpeed = 1
            gameOptions.throwSpeed = 150
-           gameOptions.targetHp = 7
+           gameOptions.targetHp = 5
            gameOptions.hitScore = 0
            gameOptions.score = 0
            gameOptions.canThrow = true
