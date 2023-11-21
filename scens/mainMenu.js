@@ -278,6 +278,17 @@ class MainMenu extends Phaser.Scene{
                 allGameSessionId : sessionID,
                 timeStamp : Date.now()
             }
+
+            let gameOver = {
+                action: 'gameOver',
+                allGameSessionId : sessionID,
+                gameSessionId : startGame.gameSessionId,
+                level: gameOptions.stage,
+                score : gameOptions.score,
+                timeStamp : Date.now()
+            }
+    
+            window?.parent.postMessage(gameOver, parentOrigin);
     
             window?.parent.postMessage(closeGameSession, parentOrigin);
             posted = true;

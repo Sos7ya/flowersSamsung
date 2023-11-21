@@ -165,6 +165,17 @@ class ScenePause extends Phaser.Scene{
 
     resumeGame(){
         clickSound.play();
+
+        let gameResume = {
+            action: 'gameResume',
+            allGameSessionId: startGame.allGameSessionId,
+            gameSessionId: startGame.gameSessionId,
+            score: gameOptions.score,
+            timeStamp : Date.now()
+        }
+
+        window?.parent.postMessage(gameResume, parentOrigin);
+
         this.scene.resume(playgame);
         this.scene.stop(scenePause);
         mainMenu.bgMusic.resume();
